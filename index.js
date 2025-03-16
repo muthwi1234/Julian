@@ -84,3 +84,37 @@ const name = julian
 
 console.log(typeof name); // string
 
+// variables
+// what is a variables
+// variables are used to store data values
+// variables are declared with the var, let, or const keyword
+// variables are assigned with the = sign
+
+// var
+
+var myVariable = "Hello World";
+myVariable += "!";
+console.log(myVariable);
+
+// let
+// let is used to declare variables
+// let is block scoped
+// let can not be redeclared
+// let can be updated
+
+// let myLetVariable = "Hello World";
+myLetVariable += "!";
+console.log(myLetVariable);
+
+// const
+// const is used to declare variables
+// const is block scoped
+// const can not be redeclared
+// const can not be updated
+
+const Rahma = "Hello World";
+Rahma += "!";
+console.log(Rahma);
+
+
+
